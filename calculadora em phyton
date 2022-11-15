@@ -1,0 +1,6 @@
+def calcular(e):
+    resultado = str(eval(e))
+    print(resultado)
+ 
+valor = str(input("Entra a expressao: "))
+print('Resultado:',calcular(valor))
